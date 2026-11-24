@@ -2,7 +2,7 @@
 //  Depende de: ../js/supabase-client.js, ../js/auth.js
 // ============================================================
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://docegestor-api.onrender.com';
 
 (async () => {
   await exigirAdmin();

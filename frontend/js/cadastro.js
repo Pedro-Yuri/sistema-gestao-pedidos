@@ -2,7 +2,7 @@
 //  Depende de: supabase-client.js, auth.js
 // ============================================================
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://docegestor-api.onrender.com';
 
 document.getElementById('cadastroForm').addEventListener('submit', async (e) => {
   e.preventDefault();
